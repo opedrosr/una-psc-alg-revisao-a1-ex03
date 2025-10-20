@@ -37,11 +37,10 @@ public class RevisaoEcom {
         }
 
         System.out.println("Processamento da Análise de Risco:");
-        System.out.println("------------------------------------------");
         System.out.printf("Média Ponderada do Risco: %.2f%n", mediaPonderada);
         System.out.println("Analistas Otimistas (Nota <= 20): " + otimistas);
         System.out.println("Analistas Alarmantes (Nota >= 90): " + alarmantes);
-        System.out.println("------------------------------------------");
+
 
        
         if (mediaPonderada > 70) {
@@ -53,3 +52,4 @@ public class RevisaoEcom {
         }
     }
 }
+
